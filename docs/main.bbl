@@ -1,0 +1,360 @@
+\begin{thebibliography}{49}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agarwal et~al.(2020)Agarwal, Wang, Lee, Venkataraman, and
+  Papailiopoulos]{agarwal2020accordion}
+Saurabh Agarwal, Hongyi Wang, Kangwook Lee, Shivaram Venkataraman, and Dimitris
+  Papailiopoulos.
+\newblock Accordion: Adaptive gradient communication via critical learning
+  regime identification.
+\newblock \emph{arXiv preprint arXiv:2010.16248}, 2020.
+
+\bibitem[Ajalloeian and Stich(2021)]{AjallStich2021biased}
+Ahmad Ajalloeian and Sebastian~U. Stich.
+\newblock {On the Convergence of SGD with Biased Gradients}.
+\newblock \emph{arXiv preprint arXiv:2008.00051}, 2021.
+
+\bibitem[Alistarh et~al.(2017)Alistarh, Grubic, Li, Tomioka, and
+  Vojnovic]{qsgd}
+Dan Alistarh, Demjan Grubic, Jerry Li, Ryota Tomioka, and Milan Vojnovic.
+\newblock {QSGD}: Communication-efficient sgd via gradient quantization and
+  encoding.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  1709--1720, 2017.
+
+\bibitem[Alistarh et~al.(2018)Alistarh, Hoefler, Johansson, Khirirat,
+  Konstantinov, and Renggli]{alistarh2018convergence}
+Dan Alistarh, Torsten Hoefler, Mikael Johansson, Sarit Khirirat, Nikola
+  Konstantinov, and C{\'e}dric Renggli.
+\newblock The convergence of sparsified gradient methods.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  5977--5987, 2018.
+
+\bibitem[Allen-Zhu(2017)]{allen2017katyusha}
+Zeyuan Allen-Zhu.
+\newblock Katyusha: The first direct acceleration of stochastic gradient
+  methods.
+\newblock In \emph{Proceedings of the 49th Annual ACM SIGACT Symposium on
+  Theory of Computing}, pages 1200--1205. ACM, 2017.
+
+\bibitem[Arnold et~al.(1992)Arnold, Balakrishnan, and Nagaraja]{arnold}
+Barry~C. Arnold, N.~Balakrishnan, and H.~N. Nagaraja.
+\newblock \emph{A First Course in order Statistics}.
+\newblock John Wiley and Sons Inc., 1992.
+
+\bibitem[Beck and Teboulle(2009)]{beck2009fista}
+Amir Beck and Marc Teboulle.
+\newblock A fast iterative shrinkage-thresholding algorithm for linear inverse
+  problems.
+\newblock \emph{SIAM Journal on Imaging Sciences}, 2\penalty0 (1):\penalty0
+  183--202, 2009.
+
+\bibitem[Brown~et al.(2020)]{Brown2020fewshot}
+Tom~B. Brown~et al.
+\newblock Language models are few-shot learners.
+\newblock \emph{arXiv preprint arXiv:2005.14165}, 2020.
+
+\bibitem[Cordonnier(2018)]{cordonnier2018convex}
+Jean-Baptiste Cordonnier.
+\newblock Convex optimization using sparsified stochastic gradient descent with
+  memory.
+\newblock Technical report, École Polytechnique Fédérale de Lausanne, 2018.
+
+\bibitem[Devlin et~al.(2018)Devlin, Chang, Lee, and Toutanova]{devlin2018bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock \emph{arXiv preprint arXiv:1810.04805}, 2018.
+
+\bibitem[Fatkhullin et~al.(2021)Fatkhullin, Sokolov, Gorbunov, Li, and
+  Richt\'{a}rik]{EF21-ext}
+Ilyas Fatkhullin, Igor Sokolov, Eduard Gorbunov, Zhize Li, and Peter
+  Richt\'{a}rik.
+\newblock {EF21 with Bells \& Whistles: Practical Algorithmic Extensions of
+  Modern Error Feedback}.
+\newblock \emph{arXiv preprint arXiv:2110.03294}, 2021.
+
+\bibitem[Gorbunov et~al.(2020{\natexlab{a}})Gorbunov, Hanzely, and
+  Richt\'{a}rik]{sigma_k}
+Eduard Gorbunov, Filip Hanzely, and Peter Richt\'{a}rik.
+\newblock A unified theory of {SGD}: Variance reduction, sampling, quantization
+  and coordinate descent.
+\newblock In \emph{The 23rd International Conference on Artificial Intelligence
+  and Statistics}, 2020{\natexlab{a}}.
+
+\bibitem[Gorbunov et~al.(2020{\natexlab{b}})Gorbunov, Kovalev, Makarenko, and
+  Richt\'{a}rik]{Gorbunov2020EF-SGD}
+Eduard Gorbunov, Dmitry Kovalev, Dmitry Makarenko, and Peter Richt\'{a}rik.
+\newblock Linearly converging error compensated {SGD}.
+\newblock In \emph{34th Conference on Neural Information Processing Systems},
+  2020{\natexlab{b}}.
+
+\bibitem[Horv{\'a}th and Richt\'{a}rik(2021)]{horvath2021a}
+Samuel Horv{\'a}th and Peter Richt\'{a}rik.
+\newblock A better alternative to error feedback for communication-efficient
+  distributed learning.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+\newblock URL \url{https://openreview.net/forum?id=vYVI1CHPaQg}.
+
+\bibitem[Horv\'{a}th et~al.(2019{\natexlab{a}})Horv\'{a}th, Ho, Horv\'{a}th,
+  Sahu, Canini, and Richt\'{a}rik]{Cnat}
+Samuel Horv\'{a}th, Chen-Yu Ho, \v{L}udov\'{i}t Horv\'{a}th, Atal~Narayan Sahu,
+  Marco Canini, and Peter Richt\'{a}rik.
+\newblock Natural compression for distributed deep learning.
+\newblock \emph{arXiv preprint arXiv:1905.10988}, 2019{\natexlab{a}}.
+
+\bibitem[Horv\'{a}th et~al.(2019{\natexlab{b}})Horv\'{a}th, Kovalev,
+  Mishchenko, Stich, and Richt\'{a}rik]{DIANA-VR}
+Samuel Horv\'{a}th, Dmitry Kovalev, Konstantin Mishchenko, Sebastian Stich, and
+  Peter Richt\'{a}rik.
+\newblock Stochastic distributed learning with gradient quantization and
+  variance reduction.
+\newblock \emph{arXiv preprint arXiv:1904.05115}, 2019{\natexlab{b}}.
+
+\bibitem[Kairouz and et~al(2019)]{FL-big}
+Peter Kairouz and et~al.
+\newblock Advances and open problems in federated learning.
+\newblock \emph{arXiv preprint arXiv:1912.04977}, 2019.
+
+\bibitem[Karimireddy et~al.(2019{\natexlab{a}})Karimireddy, Kale, Mohri, Reddi,
+  Stich, and Suresh]{Karimireddy2019}
+Sai~Praneeth Karimireddy, Satyen Kale, Mehryar Mohri, Sashank~J. Reddi,
+  Sebastian~U. Stich, and Ananda~Theertha Suresh.
+\newblock Scaffold: Stochastic controlled averaging for on-device federated
+  learning.
+\newblock \emph{ArXiv}, abs/1910.06378, 2019{\natexlab{a}}.
+
+\bibitem[Karimireddy et~al.(2019{\natexlab{b}})Karimireddy, Rebjock, Stich, and
+  Jaggi]{karimireddy2019error}
+Sai~Praneeth Karimireddy, Quentin Rebjock, Sebastian~U Stich, and Martin Jaggi.
+\newblock Error feedback fixes {S}ign{SGD} and other gradient compression
+  schemes.
+\newblock \emph{arXiv preprint arXiv:1901.09847}, 2019{\natexlab{b}}.
+
+\bibitem[Khaled et~al.(2020{\natexlab{a}})Khaled, Mishchenko, and
+  Richt\'{a}rik]{localSGD-AISTATS2020}
+Ahmed Khaled, Konstantin Mishchenko, and Peter Richt\'{a}rik.
+\newblock Tighter theory for local {SGD} on identical and heterogeneous data.
+\newblock In \emph{The 23rd International Conference on Artificial Intelligence
+  and Statistics (AISTATS 2020)}, 2020{\natexlab{a}}.
+
+\bibitem[Khaled et~al.(2020{\natexlab{b}})Khaled, Sebbouh, Loizou, Gower, and
+  Richt{\'a}rik]{khaled2020unified}
+Ahmed Khaled, Othmane Sebbouh, Nicolas Loizou, Robert~M Gower, and Peter
+  Richt{\'a}rik.
+\newblock Unified analysis of stochastic gradient methods for composite convex
+  and smooth optimization.
+\newblock \emph{arXiv preprint arXiv:2006.11573}, 2020{\natexlab{b}}.
+
+\bibitem[Kone\v{c}n\'{y} et~al.(2016)Kone\v{c}n\'{y}, McMahan, Yu,
+  Richt\'{a}rik, Suresh, and Bacon]{FEDLEARN}
+Jakub Kone\v{c}n\'{y}, H.~Brendan McMahan, Felix Yu, Peter Richt\'{a}rik,
+  Ananda~Theertha Suresh, and Dave Bacon.
+\newblock Federated learning: strategies for improving communication
+  efficiency.
+\newblock In \emph{NIPS Private Multi-Party Machine Learning Workshop}, 2016.
+
+\bibitem[Lan et~al.(2020)Lan, Chen, Goodman, Gimpel, Sharma, and
+  Soricut]{albert}
+Zhen-Zhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma,
+  and Radu Soricut.
+\newblock Albert: A lite bert for self-supervised learning of language
+  representations.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+
+\bibitem[Li et~al.(2019)Li, Sahu, Talwalkar, and Smith]{FL_survey_2019}
+Tian Li, Anit~Kumar Sahu, Ameet Talwalkar, and Virginia Smith.
+\newblock Federated learning: challenges, methods, and future directions.
+\newblock \emph{arXiv preprint arXiv:1908.07873}, 2019.
+
+\bibitem[Li and Richt{\'a}rik(2020)]{li2020unified}
+Zhize Li and Peter Richt{\'a}rik.
+\newblock A unified analysis of stochastic gradient methods for nonconvex
+  federated optimization.
+\newblock \emph{arXiv preprint arXiv:2006.07013}, 2020.
+
+\bibitem[Lim et~al.(2018)Lim, Andersen, and Kaminsky]{lim20183lc}
+Hyeontaek Lim, David~G Andersen, and Michael Kaminsky.
+\newblock 3lc: Lightweight and effective traffic compression for distributed
+  machine learning.
+\newblock \emph{arXiv preprint arXiv:1802.07389}, 2018.
+
+\bibitem[Lin et~al.(2017{\natexlab{a}})Lin, Han, Mao, Wang, and Dally]{lin}
+Yujun Lin, Song Han, Huizi Mao, Yu~Wang, and William~J. Dally.
+\newblock Deep gradient compression: Reducing the communication bandwidth for
+  distributed training.
+\newblock \emph{CoRR}, abs/1712.01887, 2017{\natexlab{a}}.
+\newblock URL \url{http://arxiv.org/abs/1712.01887}.
+
+\bibitem[Lin et~al.(2017{\natexlab{b}})Lin, Han, Mao, Wang, and
+  Dally]{lin2017deep}
+Yujun Lin, Song Han, Huizi Mao, Yu~Wang, and William~J Dally.
+\newblock Deep gradient compression: Reducing the communication bandwidth for
+  distributed training.
+\newblock \emph{arXiv preprint arXiv:1712.01887}, 2017{\natexlab{b}}.
+
+\bibitem[Lin et~al.(2018)Lin, Han, Mao, Wang, and Dally]{deep}
+Yujun Lin, Song Han, Huizi Mao, Yu~Wang, and Bill Dally.
+\newblock Deep gradient compression: Reducing the communication bandwidth for
+  distributed training.
+\newblock In \emph{ICLR 2018 - International Conference on Learning
+  Representations}, 2018.
+
+\bibitem[McMahan et~al.(2017)McMahan, Moore, Ramage, Hampson, and Ag\"{u}era~y
+  Arcas]{FL2017-AISTATS}
+H~Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, and Blaise
+  Ag\"{u}era~y Arcas.
+\newblock Communication-efficient learning of deep networks from decentralized
+  data.
+\newblock In \emph{Proceedings of the 20th International Conference on
+  Artificial Intelligence and Statistics (AISTATS)}, 2017.
+
+\bibitem[Mishchenko et~al.(2019)Mishchenko, Gorbunov, Tak{\'a}{\v{c}}, and
+  Richt{\'a}rik]{DIANA}
+Konstantin Mishchenko, Eduard Gorbunov, Martin Tak{\'a}{\v{c}}, and Peter
+  Richt{\'a}rik.
+\newblock Distributed learning with compressed gradient differences.
+\newblock \emph{arXiv preprint arXiv:1901.09269}, 2019.
+
+\bibitem[Nesterov(2013)]{nesterov2013introductory}
+Yurii Nesterov.
+\newblock \emph{Introductory lectures on convex optimization: A basic course},
+  volume~87.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan,
+  Killeen, Lin, Gimelshein, Antiga, Desmaison, Kopf, Yang, DeVito, Raison,
+  Tejani, Chilamkurthy, Steiner, Fang, Bai, and Chintala]{NEURIPS2019_9015}
+Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan,
+  Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban Desmaison,
+  Andreas Kopf, Edward Yang, Zachary DeVito, Martin Raison, Alykhan Tejani,
+  Sasank Chilamkurthy, Benoit Steiner, Lu~Fang, Junjie Bai, and Soumith
+  Chintala.
+\newblock Pytorch: An imperative style, high-performance deep learning library.
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~dAlch\'{e} Buc,
+  E.~Fox, and R.~Garnett, editors, \emph{Advances in Neural Information
+  Processing Systems 32}, pages 8024--8035. Curran Associates, Inc., 2019.
+
+\bibitem[Richt\'{a}rik and Tak\'{a}\v{c}(2016)]{PCDM}
+Peter Richt\'{a}rik and Martin Tak\'{a}\v{c}.
+\newblock Parallel coordinate descent methods for big data optimization.
+\newblock \emph{Mathematical Programming}, 156\penalty0 (1-2):\penalty0
+  433--484, 2016.
+
+\bibitem[Richt\'{a}rik et~al.(2021)Richt\'{a}rik, Sokolov, and
+  Fatkhullin]{EF21}
+Peter Richt\'{a}rik, Igor Sokolov, and Ilyas Fatkhullin.
+\newblock {EF21: A New, Simpler, Theoretically Better, and Practically Faster
+  Error Feedback}.
+\newblock In \emph{35nd Conference on Neural Information Processing Systems},
+  2021.
+
+\bibitem[Safaryan and Richt\'{a}rik(2021)]{sign_descent_2019}
+Mher Safaryan and Peter Richt\'{a}rik.
+\newblock Stochastic sign descent methods: New algorithms and better theory.
+\newblock In \emph{{Proceedings of the 38th International Conference on Machine
+  Learning (ICML)}}, 2021.
+
+\bibitem[Sapio et~al.(2019)Sapio, Canini, Ho, Nelson, Kalnis, Kim,
+  Krishnamurthy, Moshref, Ports, and Richt{\'{a}}rik]{switchML}
+Amedeo Sapio, Marco Canini, Chen{-}Yu Ho, Jacob Nelson, Panos Kalnis, Changhoon
+  Kim, Arvind Krishnamurthy, Masoud Moshref, Dan R.~K. Ports, and Peter
+  Richt{\'{a}}rik.
+\newblock Scaling distributed machine learning with in-network aggregation.
+\newblock \emph{arXiv preprint arXiv:1903.06701}, 2019.
+
+\bibitem[Seide et~al.(2014)Seide, Fu, Droppo, Li, and Yu]{1bit}
+Frank Seide, Hao Fu, Jasha Droppo, Gang Li, and Dong Yu.
+\newblock 1-bit stochastic gradient descent and application to data-parallel
+  distributed training of speech dnns.
+\newblock In \emph{Interspeech 2014}, September 2014.
+
+\bibitem[Stich and Karimireddy(2019)]{stich2019}
+Sebastian~U. Stich and Sai~Praneeth Karimireddy.
+\newblock The error-feedback framework: Better rates for {SGD} with delayed
+  gradients and compressed communication.
+\newblock \emph{arXiv preprint arXiv:1909.05350}, 2019.
+
+\bibitem[Stich et~al.(2018)Stich, Cordonnier, and Jaggi]{sparsified_sgd}
+Sebastian~U Stich, Jean-Baptiste Cordonnier, and Martin Jaggi.
+\newblock Sparsified sgd with memory.
+\newblock In S.~Bengio, H.~Wallach, H.~Larochelle, K.~Grauman, N.~Cesa-Bianchi,
+  and R.~Garnett, editors, \emph{Advances in Neural Information Processing
+  Systems 31}, pages 4447--4458. Curran Associates, Inc., 2018.
+\newblock URL
+  \url{http://papers.nips.cc/paper/7697-sparsified-sgd-with-memory.pdf}.
+
+\bibitem[Sun et~al.(2019)Sun, Shao, Jiang, Cui, Lei, Xu, and Wang]{sun}
+Haobo Sun, Yingxia Shao, Jiawei Jiang, Bin Cui, Kai Lei, Yu~Xu, and Jiang Wang.
+\newblock Sparse gradient compression for distributed {SGD}.
+\newblock In Guoliang Li, Jun Yang, Joao Gama, Juggapong Natwichai, and Yongxin
+  Tong, editors, \emph{Database Systems for Advanced Applications}, pages
+  139--155, Cham, 2019. Springer International Publishing.
+\newblock ISBN 978-3-030-18579-4.
+
+\bibitem[Vaswani et~al.(2019)Vaswani, Bach, and Schmidt]{Vaswani2019-overparam}
+Sharan Vaswani, Francis Bach, and Mark Schmidt.
+\newblock Fast and faster convergence of {SGD} for over-parameterized models
+  and an accelerated perceptron.
+\newblock In \emph{22nd International Conference on Artificial Intelligence and
+  Statistics}, volume~89 of \emph{PMLR}, pages 1195--1204, 2019.
+
+\bibitem[Vogels et~al.(2019)Vogels, Karimireddy, and Jaggi]{vogels}
+Thijs Vogels, Sai~Praneeth Karimireddy, and Martin Jaggi.
+\newblock Power{SGD}: Practical low-rank gradient compression for distributed
+  optimization.
+\newblock In \emph{Advances in Neural Information Processing Systems 32
+  (NeurIPS)}, 2019.
+
+\bibitem[Wang et~al.(2018)Wang, Singh, Michael, Hill, Levy, and Bowman]{glue}
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel~R
+  Bowman.
+\newblock Glue: A multi-task benchmark and analysis platform for natural
+  language understanding.
+\newblock \emph{arXiv preprint arXiv:1804.07461}, 2018.
+
+\bibitem[Wen et~al.(2017)Wen, Xu, Yan, Wu, Wang, Chen, and Li]{terngrad}
+Wei Wen, Cong Xu, Feng Yan, Chunpeng Wu, Yandan Wang, Yiran Chen, and Hai Li.
+\newblock Terngrad: Ternary gradients to reduce communication in distributed
+  deep learning.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  1509--1519, 2017.
+
+\bibitem[Wu et~al.(2018)Wu, Huang, Huang, and Zhang]{errorSGD}
+Jiaxiang Wu, Weidong Huang, Junzhou Huang, and Tong Zhang.
+\newblock Error compensated quantized {SGD} and its applications to large-scale
+  distributed optimization.
+\newblock In Jennifer Dy and Andreas Krause, editors, \emph{Proceedings of the
+  35th International Conference on Machine Learning}, volume~80 of
+  \emph{Proceedings of Machine Learning Research}, pages 5325--5333,
+  Stockholmsmässan, Stockholm Sweden, 10--15 Jul 2018. PMLR.
+
+\bibitem[Zhang et~al.(2017)Zhang, Li, Kara, Alistarh, Liu, and Zhang]{zipml}
+Hantian Zhang, Jerry Li, Kaan Kara, Dan Alistarh, Ji~Liu, and Ce~Zhang.
+\newblock {Z}ip{ML}: Training linear models with end-to-end low precision, and
+  a little bit of deep learning.
+\newblock In Doina Precup and Yee~Whye Teh, editors, \emph{Proceedings of the
+  34th International Conference on Machine Learning}, volume~70 of
+  \emph{Proceedings of Machine Learning Research}, pages 4035--4043,
+  International Convention Centre, Sydney, Australia, 06--11 Aug 2017. PMLR.
+
+\bibitem[Zhao et~al.(2019)Zhao, Xie, Gao, and Li]{zhao}
+Shen-Yi Zhao, Yinpeng Xie, Hao Gao, and Wu-Jun Li.
+\newblock Global momentum compression for sparse communication in distributed
+  {SGD}.
+\newblock \emph{arXiv preprint arXiv:1905.12948}, 2019.
+
+\bibitem[Zhu et~al.(2015)Zhu, Kiros, Zemel, Salakhutdinov, Urtasun, Torralba,
+  and Fidler]{zhu2015aligning}
+Yukun Zhu, Ryan Kiros, Rich Zemel, Ruslan Salakhutdinov, Raquel Urtasun,
+  Antonio Torralba, and Sanja Fidler.
+\newblock Aligning books and movies: Towards story-like visual explanations by
+  watching movies and reading books.
+\newblock In \emph{Proceedings of the IEEE international conference on computer
+  vision}, pages 19--27, 2015.
+
+\end{thebibliography}
